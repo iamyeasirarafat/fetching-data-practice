@@ -93,9 +93,7 @@ document.getElementById('randomAll').addEventListener('click',function(){
     function add (users){
         document.getElementById('cardContainer').textContent = '';
         for (const user of users.results) {
-            console.log(user);
-                
-                const card = document.createElement('div');
+            const card = document.createElement('div');
                 card.classList.add('card');
                 card.classList.add('col-lg-3');
                 card.setAttribute('style', 'width: 20rem;')
